@@ -13,7 +13,7 @@ variables:
 
 steps:
 - task: DotNetCoreInstaller@0
-  displayname: 'Use .NET Core SDK $(dotnetSdkVersion)'
+  displayName: 'Use .NET Core SDK $(dotnetSdkVersion)'
   inputs:
     version: '$(dotnetSdkVersion)'
 
